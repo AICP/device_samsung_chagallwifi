@@ -1,13 +1,13 @@
 [
     {
-        "repository": "nvertigo/android_kernel_samsung_chagallwifi",
-        "target_path": "kernel/samsung/chagallwifi",
-        "branch":      "current-12.1"
+        "repository": "LiquidSmooth-Devices/android_kernel_samsung_klimtwifi",
+        "target_path": "kernel/samsung/klimtwifi",
+        "branch":      "5.1"
     },
     {
-        "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
-        "target_path": "packages/apps/SamsungServiceMode",
-        "branch":      "cm-12.1"
+        "repository": "LiquidSmooth-Devices/android_device_samsung_exynos5420-common",
+        "target_path": "device/samsung/exynos5420-common",
+        "branch": "5.1"
     },
     {
         "repository": "CyanogenMod/android_hardware_samsung",
