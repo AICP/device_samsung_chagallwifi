@@ -57,6 +57,9 @@ BOARD_SEPOLICY_DIRS += device/samsung/exynos5420-common/sepolicy
 # Fixes screen flicker
 TARGET_FORCE_SCREENSHOT_CPU_PATH := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Cyanogen Hardware
 BOARD_HARDWARE_CLASS := $(COMMON_PATH)/cmhw
 
